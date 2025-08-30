@@ -1,0 +1,13 @@
+apiVersion: b1 
+kind: Service
+metadata: 
+  name: todoapp_service
+  namespace: todoapp
+spec:
+  selector:
+    app: todoapp
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8080
+type: ClusterIP
