@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: todoapp_nodeport
+  name: todoapp-nodeport
   namespace: todoapp
 spec:
   type: NodePort
