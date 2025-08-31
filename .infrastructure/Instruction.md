@@ -33,7 +33,7 @@ exit
 
 To access the ClusterIP service from your local machine:
 
-kubectl port-forward svc/todoapp-clusterip 8080:80 -n todoapp
+kubectl port-forward svc/todoapp-service 8080:80 -n todoapp
 
 
 In another terminal:
